@@ -1,6 +1,7 @@
 #!name=通用
 #!desc=通用URL重定向优化
 
+
 [URL Rewrite]
 ^https?:\/\/(www.)?(g|google)\.cn https://www.google.com 302
 ^https?:\/\/(ditu|maps).google\.cn https://maps.google.com 302
