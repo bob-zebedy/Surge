@@ -52,22 +52,30 @@ DOMAIN-SUFFIX, ads.linkedin.com
 DOMAIN, analytics.slashdotmedia.com
 DOMAIN, zgsdk.zhugeio.com
 
+DOMAIN, js.users.51.la
+DOMAIN, mc.51.la
+DOMAIN, wc.51.la
+DOMAIN, track.58.com
+DOMAIN, tracklog.58.com
 DOMAIN, hm.baidu.com
 DOMAIN, hmma.baidu.com
-
-DOMAIN, log.byteoversea.com
-DOMAIN, log.tiktokv.com
-DOMAIN, log-hl-ipv6.snssdk.com
-DOMAIN, log-lq.snssdk.com
-DOMAIN, log-va.tiktokv.com
-DOMAIN, xlog.snssdk.com
-
+DOMAIN, track.tiara.daum.net
+DOMAIN, track.tiara.kakao.com
 DOMAIN-SUFFIX, googletagmanager.com
 DOMAIN-SUFFIX, google-analytics.com
 DOMAIN, safebrowsing.googleapis.com
-
-DOMAIN-SUFFIX, trace.qq.com
-DOMAIN, btrace.qq.com
-DOMAIN, btrace.video.qq.com
-DOMAIN, mtrace.qq.com
+DOMAIN-SUFFIX, gozendata.com
+DOMAIN-SUFFIX, gzads.com
+DOMAIN-SUFFIX, gz-data.com
+DOMAIN-SUFFIX, giocdn.com
+DOMAIN-SUFFIX, growingio.com
+DOMAIN-SUFFIX, tracking.miui.com
+DOMAIN, data.mistat.xiaomi.com
+DOMAIN, tracking.intl.miui.com
+DOMAIN-SUFFIX, cpatrk.net
+DOMAIN-SUFFIX, talkingdata.com
+DOMAIN-SUFFIX, talkingdata.net
+DOMAIN-SUFFIX, udrig.com
 DOMAIN, safebrowsing.urlsec.qq.com
+DOMAIN, track.tenjin.com
+DOMAIN, track.tenjin.io
