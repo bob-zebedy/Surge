@@ -1,6 +1,0 @@
-#!name=自动切换代理
-#!desc=iOS 自动切换代理
-
-
-[SSID Setting]
-"正在搜索5G" suspend=true
