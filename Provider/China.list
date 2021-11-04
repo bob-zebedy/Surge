@@ -20,8 +20,16 @@ DOMAIN-SUFFIX, youku.com
 DOMAIN-SUFFIX, xiami.com
 DOMAIN-SUFFIX, xiami.net
 
-DOMAIN-SUFFIX, battle.net
-DOMAIN-SUFFIX, blizzard.com
+DOMAIN-SUFFIX, aaplimg.com
+DOMAIN-SUFFIX, apple.co
+DOMAIN-SUFFIX, apple.com
+DOMAIN-SUFFIX, apple-cloudkit.com
+DOMAIN-SUFFIX, appstore.com
+DOMAIN-SUFFIX, cdn-apple.com
+DOMAIN-SUFFIX, icloud.com
+DOMAIN-SUFFIX, icloud-content.com
+DOMAIN-SUFFIX, me.com
+DOMAIN-SUFFIX, mzstatic.com
 
 DOMAIN-SUFFIX, baidu.com
 DOMAIN-SUFFIX, baidubcr.com
@@ -30,6 +38,9 @@ DOMAIN-SUFFIX, baidupcs.com
 DOMAIN-SUFFIX, bdimg.com
 DOMAIN-SUFFIX, bdstatic.com
 DOMAIN-SUFFIX, yunjiasu-cdn.net
+
+DOMAIN-SUFFIX, battle.net
+DOMAIN-SUFFIX, blizzard.com
 
 DOMAIN-SUFFIX, acgvideo.com
 DOMAIN-SUFFIX, biliapi.com
@@ -87,14 +98,20 @@ DOMAIN-SUFFIX, miwifi.com
 DOMAIN-SUFFIX, xiaomi.com
 DOMAIN-SUFFIX, xiaomi.net
 
-DOMAIN-SUFFIX, hotmail.com
-DOMAIN-SUFFIX, microsoft.com
-DOMAIN-SUFFIX, msecnd.net
-DOMAIN-SUFFIX, office365.com
-DOMAIN-SUFFIX, outlook.com
-DOMAIN-SUFFIX, s-microsoft.com
 DOMAIN-SUFFIX, visualstudio.com
-DOMAIN-SUFFIX, windows.com
+
+DOMAIN-SUFFIX, hotmail.com
+DOMAIN-SUFFIX, outlook.com
+DOMAIN, outlook.office365.com
+DOMAIN, smtp.office365.com
+
+DOMAIN-SUFFIX, dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX, update.microsoft.com
+DOMAIN-SUFFIX, windowsupdate.com
+DOMAIN-SUFFIX, windowsupdate.microsoft.com
+DOMAIN, download.microsoft.com
+DOMAIN, wustat.windows.com
+DOMAIN, ntservicepack.microsoft.com
 
 USER-AGENT, NeteaseMusic*
 USER-AGENT, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
@@ -106,6 +123,7 @@ DOMAIN-SUFFIX, 163yun.com
 DOMAIN-SUFFIX, lofter.com
 DOMAIN-SUFFIX, netease.com
 DOMAIN-SUFFIX, ydstatic.com
+DOMAIN-SUFFIX, youdao.com
 
 DOMAIN-SUFFIX, sina.com
 DOMAIN-SUFFIX, weibo.com
@@ -136,10 +154,22 @@ DOMAIN-SUFFIX, qq.com
 DOMAIN-SUFFIX, qqmail.com
 DOMAIN-SUFFIX, servicewechat.com
 DOMAIN-SUFFIX, tencent.com
+DOMAIN-SUFFIX, tencent-cloud.com
 DOMAIN-SUFFIX, tencent-cloud.net
 DOMAIN-SUFFIX, tenpay.com
 DOMAIN-SUFFIX, wechat.com
 DOMAIN, file-igamecj.akamaized.net
+IP-CIDR, 101.32.104.4/32, no-resolve
+IP-CIDR, 101.32.104.41/32, no-resolve
+IP-CIDR, 101.32.104.56/32, no-resolve
+IP-CIDR, 101.32.118.25/32, no-resolve
+IP-CIDR, 101.32.133.16/32, no-resolve
+IP-CIDR, 101.32.133.53/32, no-resolve
+IP-CIDR, 101.32.133.209/32, no-resolve
+IP-CIDR, 129.226.3.47/32, no-resolve
+IP-CIDR, 129.226.107.244/32, no-resolve
+IP-CIDR, 182.254.116.0/24, no-resolve
+IP-CIDR, 203.205.254.0/23, no-resolve
 
 DOMAIN-SUFFIX, ccgslb.com
 DOMAIN-SUFFIX, ccgslb.net
@@ -222,6 +252,7 @@ DOMAIN-SUFFIX, chaoxing.com
 DOMAIN-SUFFIX, chinaso.com
 DOMAIN-SUFFIX, chuimg.com
 DOMAIN-SUFFIX, chunyu.mobi
+DOMAIN-SUFFIX, cibntv.net
 DOMAIN-SUFFIX, cmbchina.com
 DOMAIN-SUFFIX, cmbimg.com
 DOMAIN-SUFFIX, coolapk.com
@@ -247,6 +278,7 @@ DOMAIN-SUFFIX, geilicdn.com
 DOMAIN-SUFFIX, getpricetag.com
 DOMAIN-SUFFIX, gifshow.com
 DOMAIN-SUFFIX, godic.net
+DOMAIN-SUFFIX, heweather.net
 DOMAIN-SUFFIX, hicloud.com
 DOMAIN-SUFFIX, hongxiu.com
 DOMAIN-SUFFIX, hostbuf.com
@@ -280,8 +312,8 @@ DOMAIN-SUFFIX, ntp.org
 DOMAIN-SUFFIX, nvidia.com
 DOMAIN-SUFFIX, oracle.com
 DOMAIN-SUFFIX, plex.tv
-DOMAIN-SUFFIX, qdaily.com
 DOMAIN-SUFFIX, qidian.com
+DOMAIN-SUFFIX, qweather.com
 DOMAIN-SUFFIX, qyer.com
 DOMAIN-SUFFIX, qyerstatic.com
 DOMAIN-SUFFIX, raychase.net
@@ -289,6 +321,7 @@ DOMAIN-SUFFIX, ronghub.com
 DOMAIN-SUFFIX, ruguoapp.com
 DOMAIN-SUFFIX, sankuai.com
 DOMAIN-SUFFIX, scomper.me
+DOMAIN-SUFFIX, shouqianba.com
 DOMAIN-SUFFIX, sm.ms
 DOMAIN-SUFFIX, smzdm.com
 DOMAIN-SUFFIX, snapdrop.net
@@ -300,7 +333,6 @@ DOMAIN-SUFFIX, takungpao.com
 DOMAIN-SUFFIX, teamviewer.com
 DOMAIN-SUFFIX, tianyancha.com
 DOMAIN-SUFFIX, tophub.today
-DOMAIN-SUFFIX, udacity.com
 DOMAIN-SUFFIX, uning.com
 DOMAIN-SUFFIX, weather.com
 DOMAIN-SUFFIX, weico.cc
