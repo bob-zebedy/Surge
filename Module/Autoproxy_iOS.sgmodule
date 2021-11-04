@@ -2,5 +2,5 @@
 #!desc=iOS 自动切换代理
 
 
-[Script]
-自动切换代理模式 = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/AutoProxy.js
+[SSID Setting]
+"正在搜索5G" suspend=true
