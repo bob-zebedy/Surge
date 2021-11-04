@@ -1,20 +1,41 @@
+DOMAIN-SUFFIX, amazon.co.jp
+DOMAIN, d3c33hcgiwev3.cloudfront.net
+DOMAIN, payments-jp.amazon.com
+DOMAIN, s3-ap-northeast-1.amazonaws.com
+DOMAIN, s3-ap-southeast-2.amazonaws.com
+
+DOMAIN, a248.e.akamai.net
+DOMAIN, a771.dscq.akamai.net
+
 DOMAIN, testflight.apple.com
 
-DOMAIN-SUFFIX, appspot.com
-DOMAIN-SUFFIX, blogger.com
-DOMAIN-SUFFIX, getoutline.org
-DOMAIN-SUFFIX, gvt0.com
-DOMAIN-SUFFIX, gvt3.com
-DOMAIN-SUFFIX, xn--ngstr-lra8j.com
-DOMAIN-SUFFIX, ytimg.com
-DOMAIN-KEYWORD, google
-DOMAIN-KEYWORD, .blogspot.
+DOMAIN-SUFFIX, aex.com
+DOMAIN-SUFFIX, bibox.com
+DOMAIN-SUFFIX, binance.cc
+DOMAIN-SUFFIX, binance.com
+DOMAIN-SUFFIX, bitcointalk.org
+DOMAIN-SUFFIX, bitfinex.com
+DOMAIN-SUFFIX, bitmex.com
+DOMAIN-SUFFIX, coingecko.com
+DOMAIN-SUFFIX, coinmarketcap.com
+DOMAIN-SUFFIX, gate.io
+DOMAIN-SUFFIX, huobi.com
+DOMAIN-SUFFIX, okex.com
+DOMAIN-SUFFIX, poloniex.com
+DOMAIN-SUFFIX, uniswap.org
+DOMAIN-SUFFIX, zb.com
 
-DOMAIN-KEYWORD, .facebook.
+DOMAIN-SUFFIX, discord.com
+DOMAIN-SUFFIX, discordapp.com
+DOMAIN-SUFFIX, discordapp.net
+
+DOMAIN-SUFFIX, dropbox.com
+DOMAIN-SUFFIX, dropboxapi.com
+DOMAIN-SUFFIX, dropboxusercontent.com
+
 DOMAIN-SUFFIX, cdninstagram.com
 DOMAIN-SUFFIX, facebook.com
 DOMAIN-SUFFIX, facebook.net
-DOMAIN-SUFFIX, facebookmail.com
 DOMAIN-SUFFIX, fb.com
 DOMAIN-SUFFIX, fb.me
 DOMAIN-SUFFIX, fbaddins.com
@@ -30,33 +51,20 @@ DOMAIN-SUFFIX, rocksdb.org
 DOMAIN-SUFFIX, whatsapp.com
 DOMAIN-SUFFIX, whatsapp.net
 
-DOMAIN-SUFFIX, pscp.tv
-DOMAIN-SUFFIX, periscope.tv
-DOMAIN-SUFFIX, t.co
-DOMAIN-SUFFIX, twimg.co
-DOMAIN-SUFFIX, twimg.com
-DOMAIN-SUFFIX, twitpic.com
-DOMAIN-SUFFIX, twitter.com
-DOMAIN-SUFFIX, vine.co
+DOMAIN-SUFFIX, github.com
+DOMAIN-SUFFIX, github.io
+DOMAIN-SUFFIX, githubusercontent.com
 
-DOMAIN-SUFFIX, t.me
-DOMAIN-SUFFIX, tx.me
-DOMAIN-SUFFIX, tdesktop.com
-DOMAIN-SUFFIX, telegra.ph
-DOMAIN-SUFFIX, telesco.pe
-DOMAIN-SUFFIX, telegram.me
-DOMAIN-SUFFIX, telegram.org
-IP-CIDR, 91.108.0.0/16, no-resolve
-IP-CIDR, 91.108.4.0/22, no-resolve
-IP-CIDR, 91.108.8.0/22, no-resolve
-IP-CIDR, 91.108.12.0/22, no-resolve
-IP-CIDR, 91.108.16.0/22, no-resolve
-IP-CIDR, 91.108.56.0/22, no-resolve
-IP-CIDR, 109.239.140.0/24, no-resolve
-IP-CIDR, 149.154.160.0/20, no-resolve
-IP-CIDR6, 2001:67c:4e8::/48, no-resolve
-IP-CIDR6, 2001:b28:f23d::/48, no-resolve
-IP-CIDR6, 2001:b28:f23f::/48, no-resolve
+DOMAIN-SUFFIX, appspot.com
+DOMAIN-SUFFIX, blogger.com
+DOMAIN-SUFFIX, getoutline.org
+DOMAIN-SUFFIX, gvt0.com
+DOMAIN-SUFFIX, gvt1.com
+DOMAIN-SUFFIX, gvt3.com
+DOMAIN-SUFFIX, xn--ngstr-lra8j.com
+DOMAIN-SUFFIX, ytimg.com
+DOMAIN-KEYWORD, google
+DOMAIN-KEYWORD, .blogspot.
 
 DOMAIN-SUFFIX, line.me
 DOMAIN-SUFFIX, line-apps.com
@@ -67,17 +75,72 @@ IP-CIDR, 125.209.208.0/20, no-resolve
 IP-CIDR, 147.92.128.0/17, no-resolve
 IP-CIDR, 203.104.144.0/21, no-resolve
 
-DOMAIN-SUFFIX, amazon.co.jp
-DOMAIN, d3c33hcgiwev3.cloudfront.net
-DOMAIN, payments-jp.amazon.com
-DOMAIN, s3-ap-northeast-1.amazonaws.com
-DOMAIN, s3-ap-southeast-2.amazonaws.com
+DOMAIN-SUFFIX, aka.ms
+DOMAIN-SUFFIX, onedrive.live.com
+DOMAIN-SUFFIX, streaming.mediaservices.windows.net
+DOMAIN, assets1.xboxlive.com
+DOMAIN, assets2.xboxlive.com
+DOMAIN, az416426.vo.msecnd.net
+DOMAIN, az668014.vo.msecnd.net
 
-DOMAIN, a248.e.akamai.net
-DOMAIN, a771.dscq.akamai.net
+DOMAIN-SUFFIX, nyt.com
+DOMAIN-SUFFIX, nytchina.com
+DOMAIN-SUFFIX, nytcn.me
+DOMAIN-SUFFIX, nytco.com
+DOMAIN-SUFFIX, nytimes.com
+DOMAIN-SUFFIX, nytimg.com
+DOMAIN-SUFFIX, nytlog.com
+DOMAIN-SUFFIX, nytstyle.com
 
-DOMAIN-SUFFIX, clubhouseapi.com
-DOMAIN-SUFFIX, joinclubhouse.com
+DOMAIN-SUFFIX, pinterest.at
+DOMAIN-SUFFIX, pinterest.ca
+DOMAIN-SUFFIX, pinterest.co.uk
+DOMAIN-SUFFIX, pinterest.com
+DOMAIN-SUFFIX, pinterest.de
+DOMAIN-SUFFIX, pinterest.fr
+DOMAIN-SUFFIX, pinterest.jp
+DOMAIN-SUFFIX, pinterest.se
+
+DOMAIN-SUFFIX, pixiv.net
+DOMAIN-SUFFIX, pixiv.org
+DOMAIN-SUFFIX, pximg.net
+
+DOMAIN-SUFFIX, redd.it
+DOMAIN-SUFFIX, reddit.com
+DOMAIN-SUFFIX, redditmedia.com
+
+DOMAIN-SUFFIX, telegra.ph
+DOMAIN-SUFFIX, telegram.org
+IP-CIDR, 91.108.4.0/22, no-resolve
+IP-CIDR, 91.108.8.0/22, no-resolve
+IP-CIDR, 91.108.12.0/22, no-resolve
+IP-CIDR, 91.108.16.0/22, no-resolve
+IP-CIDR, 91.108.20.0/22, no-resolve
+IP-CIDR, 91.108.56.0/22, no-resolve
+IP-CIDR, 91.105.192.0/23, no-resolve
+IP-CIDR, 149.154.160.0/20, no-resolve
+IP-CIDR, 185.76.151.0/24, no-resolve
+IP-CIDR6, 2001:b28:f23d::/48, no-resolve
+IP-CIDR6, 2001:b28:f23f::/48, no-resolve
+IP-CIDR6, 2001:67c:4e8::/48, no-resolve
+IP-CIDR6, 2001:b28:f23c::/48, no-resolve
+IP-CIDR6, 2a0a:f280::/32, no-resolve
+
+DOMAIN-SUFFIX, pscp.tv
+DOMAIN-SUFFIX, periscope.tv
+DOMAIN-SUFFIX, t.co
+DOMAIN-SUFFIX, twimg.co
+DOMAIN-SUFFIX, twimg.com
+DOMAIN-SUFFIX, twitpic.com
+DOMAIN-SUFFIX, twitter.com
+DOMAIN-SUFFIX, vine.co
+
+DOMAIN-SUFFIX, wikileaks.org
+DOMAIN-SUFFIX, wikimapia.org
+DOMAIN-SUFFIX, wikimedia.org
+DOMAIN-SUFFIX, wikinews.org
+DOMAIN-SUFFIX, wikipedia.org
+DOMAIN-SUFFIX, wikiquote.org
 
 DOMAIN-SUFFIX, 4shared.com
 DOMAIN-SUFFIX, 9cache.com
@@ -105,18 +168,13 @@ DOMAIN-SUFFIX, ask.com
 DOMAIN-SUFFIX, avg.com
 DOMAIN-SUFFIX, avgle.com
 DOMAIN-SUFFIX, badoo.com
+DOMAIN-SUFFIX, bandcamp.com
 DOMAIN-SUFFIX, bandwagonhost.com
 DOMAIN-SUFFIX, bangkokpost.com
 DOMAIN-SUFFIX, bbc.com
 DOMAIN-SUFFIX, behance.net
-DOMAIN-SUFFIX, bibox.com
 DOMAIN-SUFFIX, biggo.com.tw
-DOMAIN-SUFFIX, binance.com
 DOMAIN-SUFFIX, bit.ly
-DOMAIN-SUFFIX, bitcointalk.org
-DOMAIN-SUFFIX, bitfinex.com
-DOMAIN-SUFFIX, bitmex.com
-DOMAIN-SUFFIX, bit-z.com
 DOMAIN-SUFFIX, bloglovin.com
 DOMAIN-SUFFIX, bloomberg.cn
 DOMAIN-SUFFIX, bloomberg.com
@@ -138,6 +196,7 @@ DOMAIN-SUFFIX, channelnewsasia.com
 DOMAIN-SUFFIX, ck101.com
 DOMAIN-SUFFIX, clarionproject.org
 DOMAIN-SUFFIX, cloudcone.com
+DOMAIN-SUFFIX, clubhouseapi.com
 DOMAIN-SUFFIX, clyp.it
 DOMAIN-SUFFIX, cna.com.tw
 DOMAIN-SUFFIX, comparitech.com
@@ -158,16 +217,11 @@ DOMAIN-SUFFIX, deepdiscount.com
 DOMAIN-SUFFIX, depositphotos.com
 DOMAIN-SUFFIX, deviantart.com
 DOMAIN-SUFFIX, disconnect.me
-DOMAIN-SUFFIX, discordapp.com
-DOMAIN-SUFFIX, discordapp.net
 DOMAIN-SUFFIX, disqus.com
 DOMAIN-SUFFIX, dlercloud.com
 DOMAIN-SUFFIX, dmhy.org
 DOMAIN-SUFFIX, dns2go.com
 DOMAIN-SUFFIX, dowjones.com
-DOMAIN-SUFFIX, dropbox.com
-DOMAIN-SUFFIX, dropboxapi.com
-DOMAIN-SUFFIX, dropboxusercontent.com
 DOMAIN-SUFFIX, duckduckgo.com
 DOMAIN-SUFFIX, duyaoss.com
 DOMAIN-SUFFIX, dw.com
@@ -199,20 +253,16 @@ DOMAIN-SUFFIX, friday.tw
 DOMAIN-SUFFIX, ft.com
 DOMAIN-SUFFIX, ftchinese.com
 DOMAIN-SUFFIX, ftimg.net
-DOMAIN-SUFFIX, gate.io
 DOMAIN-SUFFIX, genius.com
 DOMAIN-SUFFIX, getlantern.org
 DOMAIN-SUFFIX, getsync.com
-DOMAIN-SUFFIX, github.com
-DOMAIN-SUFFIX, github.io
-DOMAIN-SUFFIX, githubusercontent.com
 DOMAIN-SUFFIX, globalvoices.org
 DOMAIN-SUFFIX, goo.ne.jp
 DOMAIN-SUFFIX, goodreads.com
 DOMAIN-SUFFIX, gov.tw
+DOMAIN-SUFFIX, gravatar.com
 DOMAIN-SUFFIX, greatfire.org
 DOMAIN-SUFFIX, gumroad.com
-DOMAIN-SUFFIX, hbg.com
 DOMAIN-SUFFIX, heroku.com
 DOMAIN-SUFFIX, hightail.com
 DOMAIN-SUFFIX, hk01.com
@@ -240,6 +290,7 @@ DOMAIN-SUFFIX, japantimes.co.jp
 DOMAIN-SUFFIX, jiji.com
 DOMAIN-SUFFIX, jinx.com
 DOMAIN-SUFFIX, jkforum.net
+DOMAIN-SUFFIX, joinclubhouse.com
 DOMAIN-SUFFIX, joinmastodon.org
 DOMAIN-SUFFIX, justmysocks.net
 DOMAIN-SUFFIX, justpaste.it
@@ -293,16 +344,7 @@ DOMAIN-SUFFIX, now.com
 DOMAIN-SUFFIX, nrk.no
 DOMAIN-SUFFIX, nuget.org
 DOMAIN-SUFFIX, nyaa.si
-DOMAIN-SUFFIX, nyt.com
-DOMAIN-SUFFIX, nytchina.com
-DOMAIN-SUFFIX, nytcn.me
-DOMAIN-SUFFIX, nytco.com
-DOMAIN-SUFFIX, nytimes.com
-DOMAIN-SUFFIX, nytimg.com
-DOMAIN-SUFFIX, nytlog.com
-DOMAIN-SUFFIX, nytstyle.com
 DOMAIN-SUFFIX, ok.ru
-DOMAIN-SUFFIX, okex.com
 DOMAIN-SUFFIX, on.cc
 DOMAIN-SUFFIX, orientaldaily.com.my
 DOMAIN-SUFFIX, overcast.fm
@@ -316,15 +358,6 @@ DOMAIN-SUFFIX, pcloud.com
 DOMAIN-SUFFIX, peing.net
 DOMAIN-SUFFIX, picacomic.com
 DOMAIN-SUFFIX, pinimg.com
-DOMAIN-SUFFIX, pinterest.at
-DOMAIN-SUFFIX, pinterest.ca
-DOMAIN-SUFFIX, pinterest.co.uk
-DOMAIN-SUFFIX, pinterest.com
-DOMAIN-SUFFIX, pinterest.de
-DOMAIN-SUFFIX, pinterest.fr
-DOMAIN-SUFFIX, pinterest.jp
-DOMAIN-SUFFIX, pinterest.se
-DOMAIN-SUFFIX, pixiv.net
 DOMAIN-SUFFIX, player.fm
 DOMAIN-SUFFIX, plurk.com
 DOMAIN-SUFFIX, po18.tw
@@ -347,14 +380,10 @@ DOMAIN-SUFFIX, reabble.com
 DOMAIN-SUFFIX, readingtimes.com.tw
 DOMAIN-SUFFIX, readmoo.com
 DOMAIN-SUFFIX, redbubble.com
-DOMAIN-SUFFIX, redd.it
-DOMAIN-SUFFIX, reddit.com
-DOMAIN-SUFFIX, redditmedia.com
 DOMAIN-SUFFIX, resilio.com
 DOMAIN-SUFFIX, reuters.com
 DOMAIN-SUFFIX, reutersmedia.net
 DOMAIN-SUFFIX, rfi.fr
-DOMAIN-SUFFIX, rixcloud.com
 DOMAIN-SUFFIX, roadshow.hk
 DOMAIN-SUFFIX, rsshub.app
 DOMAIN-SUFFIX, scmp.com
@@ -363,11 +392,11 @@ DOMAIN-SUFFIX, seatguru.com
 DOMAIN-SUFFIX, shadowsocks.org
 DOMAIN-SUFFIX, shindanmaker.com
 DOMAIN-SUFFIX, shopee.tw
+DOMAIN-SUFFIX, signal.org
 DOMAIN-SUFFIX, sina.com.hk
 DOMAIN-SUFFIX, slideshare.net
 DOMAIN-SUFFIX, softfamous.com
 DOMAIN-SUFFIX, spiegel.de
-DOMAIN-SUFFIX, ssrcloud.org
 DOMAIN-SUFFIX, startpage.com
 DOMAIN-SUFFIX, steamcommunity.com
 DOMAIN-SUFFIX, steemit.com
@@ -375,6 +404,7 @@ DOMAIN-SUFFIX, steemitwallet.com
 DOMAIN-SUFFIX, straitstimes.com
 DOMAIN-SUFFIX, streamable.com
 DOMAIN-SUFFIX, streema.com
+DOMAIN-SUFFIX, substack.com
 DOMAIN-SUFFIX, t66y.com
 DOMAIN-SUFFIX, tapatalk.com
 DOMAIN-SUFFIX, teco-hk.org
@@ -390,6 +420,7 @@ DOMAIN-SUFFIX, tineye.com
 DOMAIN-SUFFIX, tiny.cc
 DOMAIN-SUFFIX, tinyurl.com
 DOMAIN-SUFFIX, torproject.org
+DOMAIN-SUFFIX, tradingview.com
 DOMAIN-SUFFIX, tumblr.com
 DOMAIN-SUFFIX, turbobit.net
 DOMAIN-SUFFIX, tutanota.com
@@ -401,7 +432,6 @@ DOMAIN-SUFFIX, uptodown.com
 DOMAIN-SUFFIX, urbandictionary.com
 DOMAIN-SUFFIX, ustream.tv
 DOMAIN-SUFFIX, uwants.com
-DOMAIN-SUFFIX, v2ex.co
 DOMAIN-SUFFIX, v2ex.com
 DOMAIN-SUFFIX, v2fly.org
 DOMAIN-SUFFIX, v2ray.com
@@ -416,18 +446,11 @@ DOMAIN-SUFFIX, w3schools.com
 DOMAIN-SUFFIX, washingtonpost.com
 DOMAIN-SUFFIX, wattpad.com
 DOMAIN-SUFFIX, whoer.net
-DOMAIN-SUFFIX, wikileaks.org
-DOMAIN-SUFFIX, wikimapia.org
-DOMAIN-SUFFIX, wikimedia.org
-DOMAIN-SUFFIX, wikinews.org
-DOMAIN-SUFFIX, wikipedia.org
-DOMAIN-SUFFIX, wikiquote.org
 DOMAIN-SUFFIX, wikiwand.com
 DOMAIN-SUFFIX, winudf.com
 DOMAIN-SUFFIX, wire.com
 DOMAIN-SUFFIX, wn.com
 DOMAIN-SUFFIX, wordpress.com
-DOMAIN-SUFFIX, workflow.is
 DOMAIN-SUFFIX, worldcat.org
 DOMAIN-SUFFIX, wsj.com
 DOMAIN-SUFFIX, wsj.net
@@ -436,6 +459,7 @@ DOMAIN-SUFFIX, xn--90wwvt03e.com
 DOMAIN-SUFFIX, xn--i2ru8q2qg.com
 DOMAIN-SUFFIX, xnxx.com
 DOMAIN-SUFFIX, xvideos.com
+DOMAIN-SUFFIX, yadi.sk
 DOMAIN-SUFFIX, yahoo.com
 DOMAIN-SUFFIX, yandex.ru
 DOMAIN-SUFFIX, ycombinator.com
@@ -444,15 +468,15 @@ DOMAIN-SUFFIX, yes-news.com
 DOMAIN-SUFFIX, yomiuri.co.jp
 DOMAIN-SUFFIX, you-get.org
 DOMAIN-SUFFIX, zaobao.com
-DOMAIN-SUFFIX, zb.com
 DOMAIN-SUFFIX, zello.com
 DOMAIN-SUFFIX, zeronet.io
+DOMAIN-SUFFIX, z-lib.org
 DOMAIN-SUFFIX, zoom.us
 
 DOMAIN, cc.tvbs.com.tw
+DOMAIN, clubhouse.pubnubapi.com
 DOMAIN, ocsp.int-x3.letsencrypt.org
 DOMAIN, us.weibo.com
-
 
 DOMAIN-SUFFIX, edu
 DOMAIN-SUFFIX, gov
@@ -480,9 +504,6 @@ DOMAIN-SUFFIX, ggpht.com
 DOMAIN-SUFFIX, gmail.com
 DOMAIN-SUFFIX, gmodules.com
 DOMAIN-SUFFIX, godoc.org
-
-DOMAIN-SUFFIX, go.dev
-DOMAIN-SUFFIX, golang.org
 DOMAIN-SUFFIX, gstatic.com
 DOMAIN-SUFFIX, gv.com
 DOMAIN-SUFFIX, gwtproject.org
@@ -509,11 +530,34 @@ DOMAIN-SUFFIX, youtu.be
 DOMAIN-SUFFIX, yt.be
 DOMAIN-SUFFIX, ytimg.com
 
+DOMAIN-SUFFIX, t.me
+DOMAIN-SUFFIX, tdesktop.com
+DOMAIN-SUFFIX, telegram.me
+DOMAIN-SUFFIX, telesco.pe
+
+DOMAIN-KEYWORD, .facebook.
+DOMAIN-SUFFIX, facebookmail.com
+
 DOMAIN-SUFFIX, noxinfluencer.com
 DOMAIN-SUFFIX, smartmailcloud.com
 DOMAIN-SUFFIX, weebly.com
 DOMAIN-SUFFIX, twitter.jp
 
+DOMAIN-SUFFIX, appsto.re
+DOMAIN, books.itunes.apple.com
+DOMAIN-SUFFIX, smoot.apple.com
+DOMAIN, beta.music.apple.com
+DOMAIN, lookup-api.apple.com
+
+DOMAIN, apps.apple.com
+DOMAIN, itunes.apple.com
+DOMAIN, tv.apple.com
+
+DOMAIN-SUFFIX, go.dev
+DOMAIN-SUFFIX, golang.org
+
+DOMAIN-SUFFIX, aicoin.com
+DOMAIN-SUFFIX, aimoon.com
 DOMAIN-SUFFIX, bing.com
 DOMAIN-SUFFIX, cccat.io
 DOMAIN-SUFFIX, dubox.com
@@ -521,6 +565,7 @@ DOMAIN-SUFFIX, duboxcdn.com
 DOMAIN-SUFFIX, ifixit.com
 DOMAIN-SUFFIX, mangakakalot.com
 DOMAIN-SUFFIX, shopeemobile.com
+DOMAIN-SUFFIX, sushi.com
 URL-REGEX, http:\/\/img\.sina\.com\/usweibo\/
 
 DOMAIN, cacerts.digicert.com
@@ -534,6 +579,3 @@ DOMAIN-SUFFIX, metapix.net
 DOMAIN-SUFFIX, s3.amazonaws.com
 DOMAIN-SUFFIX, zaobao.com.sg
 DOMAIN, international-gfe.download.nvidia.com
-
-DOMAIN-SUFFIX, qweather.com
-DOMAIN-SUFFIX, heweather.net
