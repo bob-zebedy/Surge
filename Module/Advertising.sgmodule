@@ -1,6 +1,7 @@
 #!name=广告拦截
 #!desc=通用广告拦截模块
 
+
 [General]
 force-http-engine-hosts = %APPEND% intl.iqiyi.com, wmapi.meituan.com, weibointl.api.weibo.cn
 
