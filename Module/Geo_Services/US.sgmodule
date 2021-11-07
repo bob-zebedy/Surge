@@ -1,0 +1,10 @@
+#!name=重定向 Geo Services 到美国
+#!desc=重定向 Geo Services 到美国
+
+
+[Script]
+http-response ^https?:\/\/gspe\d*-ssl\.ls\.apple\.com(\/pep\/gcc) script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/Geo-Services.js, requires-body=true, timeout=10, tag=Geo_Services
+
+
+[MITM]
+hostname = %APPEND% gspe1-ssl.ls.apple.com
