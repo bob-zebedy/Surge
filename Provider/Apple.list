@@ -24,6 +24,7 @@ DOMAIN-SUFFIX, me.com
 DOMAIN-SUFFIX, mzstatic.com
 
 DOMAIN, aod.itunes.apple.com
+DOMAIN, aod-ssl.itunes.apple.com
 DOMAIN, appleid.apple.com
 DOMAIN, appstoreconnect.apple.com
 DOMAIN, developer.apple.com
