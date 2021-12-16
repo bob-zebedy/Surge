@@ -12,7 +12,6 @@ if (wifiChanged()) {
             '将使用直接连接模式'
         );
     } else {
-        $surge.setSelectGroupPolicy('Final-select', 'Group');
         $surge.setOutboundMode('rule');
         $notification.post(
             'Surge',
