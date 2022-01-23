@@ -103,6 +103,7 @@ DOMAIN-SUFFIX, visualstudio.com
 DOMAIN-SUFFIX, hotmail.com
 DOMAIN-SUFFIX, outlook.com
 DOMAIN, outlook.office365.com
+DOMAIN, smtp-mail.outlook.com
 DOMAIN, smtp.office365.com
 
 DOMAIN-SUFFIX, dl.delivery.mp.microsoft.com
@@ -148,14 +149,12 @@ DOMAIN-SUFFIX, myapp.com
 DOMAIN-SUFFIX, myqcloud.com
 DOMAIN-SUFFIX, qq.com
 DOMAIN-SUFFIX, qqmail.com
-DOMAIN-SUFFIX, servicewechat.com
 DOMAIN-SUFFIX, tencent.com
 DOMAIN-SUFFIX, tencent-cloud.com
 DOMAIN-SUFFIX, tencent-cloud.net
 DOMAIN-SUFFIX, tenpay.com
-DOMAIN-SUFFIX, wechat.com
-DOMAIN, file-igamecj.akamaized.net
 IP-CIDR, 182.254.116.0/24, no-resolve
+IP-CIDR, 203.205.238.0/23, no-resolve
 IP-CIDR, 203.205.254.0/23, no-resolve
 
 DOMAIN-SUFFIX, ccgslb.com
@@ -336,4 +335,3 @@ DOMAIN-SUFFIX, zhimg.com
 DOMAIN-SUFFIX, zhuihd.com
 
 DOMAIN, download.jetbrains.com
-DOMAIN, images-cn.ssl-images-amazon.com
