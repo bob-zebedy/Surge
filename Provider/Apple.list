@@ -13,15 +13,19 @@ DOMAIN-SUFFIX, apple.co
 DOMAIN-SUFFIX, apple.com
 DOMAIN-SUFFIX, apple.com.cn
 DOMAIN-SUFFIX, apple-cloudkit.com
+DOMAIN-SUFFIX, apple-livephotoskit.com
 DOMAIN-SUFFIX, appstore.com
+DOMAIN-SUFFIX, apzones.com
 DOMAIN-SUFFIX, cdn-apple.com
+DOMAIN-SUFFIX, gc.apple.com
+DOMAIN-SUFFIX, icloud.apple.com
 DOMAIN-SUFFIX, icloud.com
 DOMAIN-SUFFIX, icloud.com.cn
 DOMAIN-SUFFIX, icloud-content.com
+DOMAIN-SUFFIX, iwork.apple.com
 DOMAIN-SUFFIX, mail.icloud.com.cn
 DOMAIN-SUFFIX, mail.me.com
 DOMAIN-SUFFIX, me.com
-DOMAIN-SUFFIX, mzstatic.com
 
 DOMAIN, aod.itunes.apple.com
 DOMAIN, aod-ssl.itunes.apple.com
