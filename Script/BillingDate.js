@@ -1,22 +1,26 @@
 /*
-薪资日 = type=cron,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/Payday.js,script-update-interval=0
+账单日 = type=cron,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/BillingDate.js,script-update-interval=0
 */
-var TargetDate = 18
+
+// 账单日
+var TargetDate = 20
+
+var BillingMap = new Map([['浦发银行', 20], ['招商银行', 25]]);
 
 function Today() {
     var now = new Date();
     var nowYear = now.getFullYear();
     var nowMonth = now.getMonth();
     var nowDate = now.getDate();
-    newdate = new Date(nowYear, nowMonth, nowDate);
+    // newdate = new Date(nowYear, nowMonth, nowDate);
     nowMonth = doHandleMonth(nowMonth + 1);
     nowDate = doHandleMonth(nowDate);
     return nowYear + "-" + nowMonth + "-" + nowDate;
 }
 
-function NextDay() {
+function NextDay(target) {
     today = Today();
-    n = new Date().setDate(TargetDate);
+    n = new Date().setDate(target);
     next = new Date(n)
     if (DiffDay(today, next) > 0) {
         var nextYear = next.getFullYear();
@@ -60,14 +64,17 @@ function DiffDay(startDay, endDay) {
 }
 
 
-title = "倒数日";
+title = "信用卡账单日";
 subtitle = Today();
-if (DiffDay(Today(), NextDay()) == 0) {
-    detail = "今天就要发工资啦🤪"
-} else {
-    detail = "🔜 距离下一个薪资日 " + NextDay() + "(" + getWeek(NextDay()) + ")" + " 还有 " + DiffDay(Today(), NextDay()) + " 天";
-}
+BillingMap.forEach(function (value, key) {
+    if (DiffDay(Today(), NextDay(value)) == 0) {
+        detail = "💳 今天是" + key + "信用卡账单日"
+    } else {
+        detail = "🔜 " + key + "信用卡账单日 " + NextDay(value) + "(" + getWeek(NextDay(value)) + ")" + " 还有 " + DiffDay(Today(), NextDay(value)) + " 天";
+    }
 
-$notification.post(title, subtitle, detail);
+    $notification.post(title, subtitle, detail);
+
+});
 
 $done({});
