@@ -10,7 +10,6 @@ function Today() {
     var nowYear = now.getFullYear();
     var nowMonth = now.getMonth();
     var nowDate = now.getDate();
-    newdate = new Date(nowYear, nowMonth, nowDate);
     nowMonth = doHandleMonth(nowMonth + 1);
     nowDate = doHandleMonth(nowDate);
     return nowYear + "-" + nowMonth + "-" + nowDate;
