@@ -61,7 +61,7 @@ function DiffDay(startDay, endDay) {
 }
 
 
-title = "倒数日";
+title = "薪资日";
 subtitle = Today();
 if (DiffDay(Today(), NextDay()) == 0) {
     detail = "今天就要发工资啦🤪"
