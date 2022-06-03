@@ -2,9 +2,6 @@
 账单日 = type=cron,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/BillingDate.js,script-update-interval=0
 */
 
-// 账单日
-var TargetDate = 20
-
 var BillingMap = new Map([['浦发银行', 20], ['招商银行', 25]]);
 
 function Today() {
