@@ -147,7 +147,7 @@ async function check_netflix() {
         })
     }
 
-    let netflix_check_result = 'Netflix\t'
+    let netflix_check_result = 'Netflix\t\t'
 
     await inner_check(81215567)
         .then((code) => {
