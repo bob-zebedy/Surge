@@ -35,17 +35,17 @@ const STATUS_ERROR = -2
                 let disney_result = ""
                 if (status == STATUS_COMING) {
                     //console.log(1)
-                    disney_result = "Disney+: 即将登陆~" + region.toUpperCase()
+                    disney_result = "Disney+:\t即将登陆~" + region.toUpperCase()
                 } else if (status == STATUS_AVAILABLE) {
                     //console.log(2)
                     console.log(region)
-                    disney_result = "Disney+: 已解锁 ➟ " + region.toUpperCase()
+                    disney_result = "Disney+:\t已解锁 ➟ " + region.toUpperCase()
                     // console.log(result["Disney"])
                 } else if (status == STATUS_NOT_AVAILABLE) {
                     //console.log(3)
-                    disney_result = "Disney+: 未支持 🚫 "
+                    disney_result = "Disney+:\t未支持 🚫 "
                 } else if (status == STATUS_TIMEOUT) {
-                    disney_result = "Disney+: 检测超时 🚦"
+                    disney_result = "Disney+:\t检测超时 🚦"
                 }
                 result.push(disney_result)
                 console.log(result)
@@ -91,7 +91,7 @@ async function check_youtube_premium() {
         })
     }
 
-    let youtube_check_result = 'YouTube: '
+    let youtube_check_result = 'YouTube:\t'
 
     await inner_check()
         .then((code) => {
@@ -147,7 +147,7 @@ async function check_netflix() {
         })
     }
 
-    let netflix_check_result = 'Netflix: '
+    let netflix_check_result = 'Netflix:\t'
 
     await inner_check(81215567)
         .then((code) => {
