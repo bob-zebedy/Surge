@@ -1,6 +1,9 @@
 /*
-Bilibili 开屏广告 = type=http-response,requires-body=true,max-size=false,pattern=^https?:\/\/app\.bilibili\.com/x/v\d/splash/list,script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/Bilibili.js
-*/
+ * 作者：@Bobby
+ * 更新日期：2022-09-04
+ * 版本：1.0
+ * 使用：Bilibili 开屏广告 = type=http-response,requires-body=true,max-size=false,pattern=^https?:\/\/app\.bilibili\.com/x/v\d/splash/list,script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/Bilibili.js
+ */
 
 let body = $response.body
 body = JSON.parse(body)
