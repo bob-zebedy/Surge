@@ -584,4 +584,4 @@ DOMAIN, international-gfe.download.nvidia.com
 
 DOMAIN, translate.googleapis.com
 
-DOMAIN, sm.ms
+DOMAIN-SUFFIX, sm.ms
