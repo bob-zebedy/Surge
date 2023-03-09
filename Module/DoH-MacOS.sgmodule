@@ -1,0 +1,5 @@
+#!name=MacOS DoH
+#!desc=MacOS DoH
+
+[General]
+doh-server = https://dns.zebedy.com/dns-query/surge-mac

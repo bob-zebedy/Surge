@@ -1,5 +1,0 @@
-#!name=DoH
-#!desc=DoH
-
-[General]
-doh-server = https://dns.zebedy.com/dns-query
