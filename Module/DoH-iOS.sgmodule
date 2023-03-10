@@ -3,3 +3,4 @@
 
 [General]
 doh-server = https://dns.zebedy.com/dns-query/surge-ios
+doh-follow-outbound-mode = true
