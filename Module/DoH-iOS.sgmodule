@@ -1,5 +1,0 @@
-#!name=iOS DoH
-#!desc=iOS DoH
-
-[General]
-doh-server = https://dns.zebedy.com/dns-query/surge-ios
