@@ -1,5 +1,6 @@
 #!name=WiFi 临时禁用
 #!desc=WiFi 临时禁用
 
+
 [SSID Setting]
 "正在搜索5G" suspend=true
