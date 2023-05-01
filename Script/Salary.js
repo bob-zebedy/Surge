@@ -20,8 +20,8 @@ function Today() {
 
 function NextDay() {
     today = Today();
-    n = new Date().setDate(TargetDate);
-    next = new Date(n)
+    target = new Date().setDate(TargetDate);
+    next = new Date(target)
     if (DiffDay(today, next) > 0) {
         var nextYear = next.getFullYear();
         var nextMonth = doHandleMonth(next.getMonth() + 1);
