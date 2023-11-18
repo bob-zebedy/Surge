@@ -1,5 +1,9 @@
+USER-AGENT, WeChat*
+USER-AGENT, NeteaseMusic*
+USER-AGENT, MicroMessenger*
 USER-AGENT, %E4%BC%98%E9%85%B7*
-
+USER-AGENT, %E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
+USER-AGENT, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 DOMAIN-SUFFIX, alibaba.com
 DOMAIN-SUFFIX, alibabausercontent.com
 DOMAIN-SUFFIX, alicdn.com
@@ -17,10 +21,8 @@ DOMAIN-SUFFIX, ykimg.com
 DOMAIN-SUFFIX, youku.com
 DOMAIN-SUFFIX, xiami.com
 DOMAIN-SUFFIX, xiami.net
-
 DOMAIN-SUFFIX, qhres.com
 DOMAIN-SUFFIX, qhimg.com
-
 DOMAIN-SUFFIX, aaplimg.com
 DOMAIN-SUFFIX, apple.co
 DOMAIN-SUFFIX, apple.com
@@ -31,7 +33,6 @@ DOMAIN-SUFFIX, icloud.com
 DOMAIN-SUFFIX, icloud-content.com
 DOMAIN-SUFFIX, me.com
 DOMAIN-SUFFIX, mzstatic.com
-
 DOMAIN-SUFFIX, baidu.com
 DOMAIN-SUFFIX, baidubcr.com
 DOMAIN-SUFFIX, baidupan.com
@@ -39,58 +40,45 @@ DOMAIN-SUFFIX, baidupcs.com
 DOMAIN-SUFFIX, bdimg.com
 DOMAIN-SUFFIX, bdstatic.com
 DOMAIN-SUFFIX, yunjiasu-cdn.net
-
 DOMAIN-SUFFIX, battle.net
 DOMAIN-SUFFIX, blizzard.com
-
 DOMAIN-SUFFIX, acgvideo.com
 DOMAIN-SUFFIX, biliapi.com
 DOMAIN-SUFFIX, biliapi.net
 DOMAIN-SUFFIX, bilibili.com
 DOMAIN-SUFFIX, bilibili.tv
 DOMAIN-SUFFIX, hdslb.com
-
 DOMAIN-SUFFIX, feiliao.com
 DOMAIN-SUFFIX, pstatp.com
 DOMAIN-SUFFIX, snssdk.com
 DOMAIN-SUFFIX, iesdouyin.com
 DOMAIN-SUFFIX, toutiao.com
-
 DOMAIN-SUFFIX, cctv.com
 DOMAIN-SUFFIX, cctvpic.com
 DOMAIN-SUFFIX, livechina.com
-
 DOMAIN-SUFFIX, 21cn.com
-
 DOMAIN-SUFFIX, didialift.com
 DOMAIN-SUFFIX, didiglobal.com
 DOMAIN-SUFFIX, udache.com
-
 DOMAIN-SUFFIX, hitv.com
 DOMAIN-SUFFIX, mgtv.com
-
 DOMAIN-SUFFIX, iqiyi.com
 DOMAIN-SUFFIX, iqiyipic.com
 DOMAIN-SUFFIX, 71.am
-
 DOMAIN-SUFFIX, jd.com
 DOMAIN-SUFFIX, jd.hk
 DOMAIN-SUFFIX, jdpay.com
 DOMAIN-SUFFIX, 360buyimg.com
-
 DOMAIN-SUFFIX, iciba.com
 DOMAIN-SUFFIX, ksosoft.com
-
 DOMAIN-SUFFIX, meitu.com
 DOMAIN-SUFFIX, meitudata.com
 DOMAIN-SUFFIX, meitustat.com
 DOMAIN-SUFFIX, meipai.com
-
 DOMAIN-SUFFIX, dianping.com
 DOMAIN-SUFFIX, dpfile.com
 DOMAIN-SUFFIX, meituan.com
 DOMAIN-SUFFIX, meituan.net
-
 DOMAIN-SUFFIX, duokan.com
 DOMAIN-SUFFIX, mi.com
 DOMAIN-SUFFIX, mi-img.com
@@ -98,25 +86,13 @@ DOMAIN-SUFFIX, miui.com
 DOMAIN-SUFFIX, miwifi.com
 DOMAIN-SUFFIX, xiaomi.com
 DOMAIN-SUFFIX, xiaomi.net
-
 DOMAIN-SUFFIX, visualstudio.com
-
 DOMAIN-SUFFIX, hotmail.com
 DOMAIN-SUFFIX, outlook.com
-DOMAIN, outlook.office365.com
-DOMAIN, smtp-mail.outlook.com
-DOMAIN, smtp.office365.com
-
 DOMAIN-SUFFIX, dl.delivery.mp.microsoft.com
 DOMAIN-SUFFIX, update.microsoft.com
 DOMAIN-SUFFIX, windowsupdate.com
 DOMAIN-SUFFIX, windowsupdate.microsoft.com
-DOMAIN, download.microsoft.com
-DOMAIN, wustat.windows.com
-DOMAIN, ntservicepack.microsoft.com
-
-USER-AGENT, NeteaseMusic*
-USER-AGENT, %E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90*
 DOMAIN-SUFFIX, 163.com
 DOMAIN-SUFFIX, 126.com
 DOMAIN-SUFFIX, 126.net
@@ -126,23 +102,16 @@ DOMAIN-SUFFIX, lofter.com
 DOMAIN-SUFFIX, netease.com
 DOMAIN-SUFFIX, ydstatic.com
 DOMAIN-SUFFIX, youdao.com
-
 DOMAIN-SUFFIX, sina.com
 DOMAIN-SUFFIX, weibo.com
 DOMAIN-SUFFIX, weibocdn.com
-
 DOMAIN-SUFFIX, sohu.com
 DOMAIN-SUFFIX, sohucs.com
 DOMAIN-SUFFIX, sohu-inc.com
 DOMAIN-SUFFIX, v-56.com
-
 DOMAIN-SUFFIX, sogo.com
 DOMAIN-SUFFIX, sogou.com
 DOMAIN-SUFFIX, sogoucdn.com
-
-USER-AGENT, MicroMessenger*
-USER-AGENT, WeChat*
-USER-AGENT, %E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1*
 DOMAIN-SUFFIX, gtimg.com
 DOMAIN-SUFFIX, idqqimg.com
 DOMAIN-SUFFIX, igamecj.com
@@ -154,10 +123,6 @@ DOMAIN-SUFFIX, tencent.com
 DOMAIN-SUFFIX, tencent-cloud.com
 DOMAIN-SUFFIX, tencent-cloud.net
 DOMAIN-SUFFIX, tenpay.com
-IP-CIDR, 182.254.116.0/24, no-resolve
-IP-CIDR, 203.205.238.0/23, no-resolve
-IP-CIDR, 203.205.254.0/23, no-resolve
-
 DOMAIN-SUFFIX, ccgslb.com
 DOMAIN-SUFFIX, ccgslb.net
 DOMAIN-SUFFIX, chinanetcenter.com
@@ -165,7 +130,6 @@ DOMAIN-SUFFIX, meixincdn.com
 DOMAIN-SUFFIX, ourdvs.com
 DOMAIN-SUFFIX, staticdn.net
 DOMAIN-SUFFIX, wangsu.com
-
 DOMAIN-SUFFIX, ipip.net
 DOMAIN-SUFFIX, ip.la
 DOMAIN-SUFFIX, ip.sb
@@ -176,10 +140,7 @@ DOMAIN-SUFFIX, test-ipv6.com
 DOMAIN-SUFFIX, whatismyip.com
 DOMAIN, ip.istatmenus.app
 DOMAIN, sms.imagetasks.com
-
 DOMAIN-SUFFIX, netspeedtestmaster.com
-DOMAIN, speedtest.macpaw.com
-
 DOMAIN-SUFFIX, acg.rip
 DOMAIN-SUFFIX, animebytes.tv
 DOMAIN-SUFFIX, awesome-hd.me
@@ -212,7 +173,6 @@ DOMAIN-SUFFIX, redacted.ch
 DOMAIN-SUFFIX, springsunday.net
 DOMAIN-SUFFIX, tjupt.org
 DOMAIN-SUFFIX, totheglory.im
-
 DOMAIN-SUFFIX, cn
 DOMAIN-SUFFIX, 115.com
 DOMAIN-SUFFIX, 360in.com
@@ -331,5 +291,14 @@ DOMAIN-SUFFIX, zhihu.com
 DOMAIN-SUFFIX, zhihuishu.com
 DOMAIN-SUFFIX, zhimg.com
 DOMAIN-SUFFIX, zhuihd.com
-
 DOMAIN, download.jetbrains.com
+DOMAIN, speedtest.macpaw.com
+DOMAIN, outlook.office365.com
+DOMAIN, smtp-mail.outlook.com
+DOMAIN, smtp.office365.com
+DOMAIN, download.microsoft.com
+DOMAIN, wustat.windows.com
+DOMAIN, ntservicepack.microsoft.com
+IP-CIDR, 182.254.116.0/24, no-resolve
+IP-CIDR, 203.205.238.0/23, no-resolve
+IP-CIDR, 203.205.254.0/23, no-resolve

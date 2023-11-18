@@ -1,9 +1,7 @@
 PROCESS-NAME, Music
 USER-AGENT, Music*
-
 DOMAIN-KEYWORD, apple.com.akadns.net
 DOMAIN-KEYWORD, icloud.com.akadns.net
-
 DOMAIN-SUFFIX, apps.apple.com
 DOMAIN-SUFFIX, itunes.apple.com
 DOMAIN-SUFFIX, itunes-apple.com.akadns.net
@@ -26,7 +24,6 @@ DOMAIN-SUFFIX, iwork.apple.com
 DOMAIN-SUFFIX, mail.icloud.com.cn
 DOMAIN-SUFFIX, mail.me.com
 DOMAIN-SUFFIX, me.com
-
 DOMAIN, aod.itunes.apple.com
 DOMAIN, aod-ssl.itunes.apple.com
 DOMAIN, appleid.apple.com
@@ -59,7 +56,6 @@ DOMAIN, fmfmobile.icloud.com
 DOMAIN, fmipmobile.icloud.com
 DOMAIN, statici.icloud.com
 DOMAIN, streamingaudio.itunes.apple.com
-
 IP-CIDR, 17.0.0.0/8, no-resolve
 IP-CIDR, 63.92.224.0/19, no-resolve
 IP-CIDR, 65.199.22.0/23, no-resolve
