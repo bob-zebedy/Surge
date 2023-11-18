@@ -1,5 +1,7 @@
 USER-AGENT, OneDrive*
+
 DOMAIN-KEYWORD, onedrive
+
 DOMAIN-SUFFIX, aka.ms
 DOMAIN-SUFFIX, azure.com
 DOMAIN-SUFFIX, fabric.io
@@ -9,9 +11,9 @@ DOMAIN-SUFFIX, live.com
 DOMAIN-SUFFIX, live.net
 DOMAIN-SUFFIX, livefilestore.com
 DOMAIN-SUFFIX, mesh.com
+DOMAIN-SUFFIX, microsoft-tst.com
 DOMAIN-SUFFIX, microsoft.com
 DOMAIN-SUFFIX, microsoftonline.com
-DOMAIN-SUFFIX, microsoft-tst.com
 DOMAIN-SUFFIX, msn.com
 DOMAIN-SUFFIX, office.com
 DOMAIN-SUFFIX, office.net
@@ -28,6 +30,7 @@ DOMAIN-SUFFIX, windows.net
 DOMAIN-SUFFIX, xbox.com
 DOMAIN-SUFFIX, xboxlive.com
 DOMAIN-SUFFIX, xboxservices.com
+
 DOMAIN, az416426.vo.msecnd.net
 DOMAIN, az668014.vo.msecnd.net
 DOMAIN, store-images.s-microsoft.com
