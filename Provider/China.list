@@ -34,9 +34,6 @@ DOMAIN-SUFFIX, alipay.com
 DOMAIN-SUFFIX, amap.com
 DOMAIN-SUFFIX, amd.com
 DOMAIN-SUFFIX, animebytes.tv
-DOMAIN-SUFFIX, apple-cloudkit.com
-DOMAIN-SUFFIX, apple.co
-DOMAIN-SUFFIX, apple.com
 DOMAIN-SUFFIX, appstore.com
 DOMAIN-SUFFIX, autonavi.com
 DOMAIN-SUFFIX, awesome-hd.me
@@ -64,7 +61,6 @@ DOMAIN-SUFFIX, ccgslb.com
 DOMAIN-SUFFIX, ccgslb.net
 DOMAIN-SUFFIX, cctv.com
 DOMAIN-SUFFIX, cctvpic.com
-DOMAIN-SUFFIX, cdn-apple.com
 DOMAIN-SUFFIX, chaoxing.com
 DOMAIN-SUFFIX, chaoxing.com
 DOMAIN-SUFFIX, chdbits.co
@@ -123,14 +119,11 @@ DOMAIN-SUFFIX, hicloud.com
 DOMAIN-SUFFIX, hitv.com
 DOMAIN-SUFFIX, hongxiu.com
 DOMAIN-SUFFIX, hostbuf.com
-DOMAIN-SUFFIX, hotmail.com
 DOMAIN-SUFFIX, huxiucdn.com
 DOMAIN-SUFFIX, huya.com
 DOMAIN-SUFFIX, ibm.com
 DOMAIN-SUFFIX, icetorrent.org
 DOMAIN-SUFFIX, iciba.com
-DOMAIN-SUFFIX, icloud-content.com
-DOMAIN-SUFFIX, icloud.com
 DOMAIN-SUFFIX, idqqimg.com
 DOMAIN-SUFFIX, iesdouyin.com
 DOMAIN-SUFFIX, igamecj.com
@@ -202,7 +195,6 @@ DOMAIN-SUFFIX, open.cd
 DOMAIN-SUFFIX, oracle.com
 DOMAIN-SUFFIX, ourbits.club
 DOMAIN-SUFFIX, ourdvs.com
-DOMAIN-SUFFIX, outlook.com
 DOMAIN-SUFFIX, passthepopcorn.me
 DOMAIN-SUFFIX, plex.tv
 DOMAIN-SUFFIX, privatehd.to
