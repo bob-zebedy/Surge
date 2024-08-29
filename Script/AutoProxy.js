@@ -1,8 +1,8 @@
 /*
- * 作者：@Bobby
- * 更新日期：2022-09-04
- * 版本：1.0
- * 使用：代理模式自动切换 = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/AutoProxy.js
+ * 作者: @Bob
+ * 更新日期: 2022-09-04
+ * 版本: 1.0
+ * 使用: 代理模式自动切换 = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/bob-zebedy/Surge/master/Script/AutoProxy.js
  */
 
 const WIFI_DONT_NEED_PROXYS = ['正在搜索5G'];

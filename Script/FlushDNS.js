@@ -1,7 +1,8 @@
 /*
- * 作者：@Bobby
- * 更新日期：2022-09-04
- * 版本：1.0
+ * 作者: @Bob
+ * 更新日期: 2022-09-04
+ * 版本: 1.0
+ * 使用: 刷新 DNS = type=cron,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/bob-zebedy/Surge/master/Script/FlushDNS.js,script-update-interval=0 
  */
 
 !(async () => {

@@ -3,5 +3,5 @@
 
 
 [Script]
-薪资日 = type=cron,wake-system=true,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/Salary.js,script-update-interval=0
-账单日 = type=cron,wake-system=true,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/deplives/Surge/master/Script/BillingDate.js,script-update-interval=0
+薪资日 = type=cron,wake-system=true,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/bob-zebedy/Surge/master/Script/Salary.js,script-update-interval=0
+账单日 = type=cron,wake-system=true,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/bob-zebedy/Surge/master/Script/BillingDate.js,script-update-interval=0
