@@ -2889,7 +2889,6 @@ DOMAIN-SUFFIX, starbaby.com
 DOMAIN-SUFFIX, starlakelab.com
 DOMAIN-SUFFIX, startssl.com
 DOMAIN-SUFFIX, staticdn.net
-<<<<<<< HEAD
 DOMAIN-SUFFIX, staticfile.org
 DOMAIN-SUFFIX, stcn.com
 DOMAIN-SUFFIX, steampp.net
@@ -2930,10 +2929,6 @@ DOMAIN-SUFFIX, taihuoniao.com
 DOMAIN-SUFFIX, taikang.com
 DOMAIN-SUFFIX, taikanglife.com
 DOMAIN-SUFFIX, taikangzhijia.com
-=======
-DOMAIN-SUFFIX, strava.com
-DOMAIN-SUFFIX, subhd.tv
->>>>>>> f125334215b3965c4f682117e2e073ddeb7bea04
 DOMAIN-SUFFIX, takungpao.com
 DOMAIN-SUFFIX, tamaegis.com
 DOMAIN-SUFFIX, tandfonline.com
