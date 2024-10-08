@@ -16,7 +16,6 @@ DOMAIN, track.tenjin.io
 DOMAIN, tracking.intl.miui.com
 DOMAIN, wc.51.la
 DOMAIN, zgsdk.zhugeio.com
-
 DOMAIN-SUFFIX, 0.myikas.com
 DOMAIN-SUFFIX, 0.net.easyjet.com
 DOMAIN-SUFFIX, 00px.net
@@ -38942,7 +38941,6 @@ DOMAIN-SUFFIX, zz.bdstatic.com
 DOMAIN-SUFFIX, zzaoea.costacrociere.it
 DOMAIN-SUFFIX, zzqyxd.smartpozyczka.pl
 DOMAIN-SUFFIX, zzsqqx.shopjapan.co.jp
-
 DOMAIN-KEYWORD, analytics.
 DOMAIN-KEYWORD, app-analytics
 DOMAIN-KEYWORD, app-log.
@@ -38952,7 +38950,6 @@ DOMAIN-KEYWORD, ios-log.
 DOMAIN-KEYWORD, ioslog.
 DOMAIN-KEYWORD, pc-log.
 DOMAIN-KEYWORD, pclog.
-
 IP-CIDR, 0.0.0.1/32
 IP-CIDR, 109.123.233.251/32
 IP-CIDR, 157.148.47.204/32

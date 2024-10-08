@@ -31,12 +31,10 @@ DOMAIN-SUFFIX, nflxso.net
 DOMAIN-SUFFIX, nflxvideo.net
 DOMAIN-SUFFIX, onetrust.com
 DOMAIN-SUFFIX, us-west-2.amazonaws.com
-
 DOMAIN-KEYWORD, apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD, dualstack.apiproxy-
 DOMAIN-KEYWORD, dualstack.ichnaea-web-
 DOMAIN-KEYWORD, netflixdnstest
-
 IP-CIDR, 103.87.204.0/22, no-resolve
 IP-CIDR, 107.23.255.0/26, no-resolve
 IP-CIDR, 108.128.160.0/23, no-resolve
@@ -1156,7 +1154,5 @@ IP-CIDR6, 2607:fb10::/32, no-resolve
 IP-CIDR6, 2620:10c:7000::/44, no-resolve
 IP-CIDR6, 2a00:86c0::/32, no-resolve
 IP-CIDR6, 2a03:5640::/32, no-resolve
-
 USER-AGENT, Argo*
-
 PROCESS-NAME, com.netflix.mediaclient

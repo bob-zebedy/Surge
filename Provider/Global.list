@@ -80,7 +80,6 @@ DOMAIN, cloud.oracle.com
 DOMAIN, location.microsoft.com
 DOMAIN, login.microsoftonline.com
 DOMAIN, self.events.data.microsoft.com
-
 DOMAIN-SUFFIX, 01.org
 DOMAIN-SUFFIX, 02weqj32.com
 DOMAIN-SUFFIX, 04647.club
@@ -25061,7 +25060,6 @@ DOMAIN-SUFFIX, zyzc9.com
 DOMAIN-SUFFIX, zzcartoon.com
 DOMAIN-SUFFIX, zzcloud.me
 DOMAIN-SUFFIX, zzux.com
-
 DOMAIN-KEYWORD, amazon
 DOMAIN-KEYWORD, avoddashs
 DOMAIN-KEYWORD, bbcfmt
@@ -25098,7 +25096,6 @@ DOMAIN-KEYWORD, twitter
 DOMAIN-KEYWORD, uk-live
 DOMAIN-KEYWORD, whatsapp
 DOMAIN-KEYWORD, youtube
-
 IP-CIDR, 1.201.0.0/24
 IP-CIDR, 101.32.118.0/23
 IP-CIDR, 101.32.96.0/20
@@ -25215,7 +25212,6 @@ IP-CIDR6, 2001:67c:4e8::/48
 IP-CIDR6, 2001:b28:f23c::/47
 IP-CIDR6, 2001:b28:f23f::/48
 IP-CIDR6, 2a0a:f280::/32
-
 USER-AGENT, AbemaTV*
 USER-AGENT, All4*
 USER-AGENT, Anime*
@@ -25262,5 +25258,4 @@ USER-AGENT, WhatsApp*
 USER-AGENT, battleroyale*
 USER-AGENT, com.apple.trustd*
 USER-AGENT, hearthstone*
-
 PROCESS-NAME, LookupViewService
