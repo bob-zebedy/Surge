@@ -1,6 +1,5 @@
 #!name=自动切换模式
 #!desc=自动切换模式
 
-
 [Script]
 自动切换模式 = type=event,event-name=network-changed,script-path=https://raw.githubusercontent.com/bob-zebedy/Surge/master/Script/AutoProxy.js

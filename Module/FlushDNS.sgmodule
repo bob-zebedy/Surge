@@ -2,7 +2,6 @@
 #!desc=清除 Surge 的 DNS 缓存
 #!system=ios
 
-
 [Panel]
 FlushDNS = script-name=FlushDNS,update-interval=600
 

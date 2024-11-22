@@ -1,7 +1,6 @@
 #!name=倒数日
 #!desc=倒数日
 
-
 [Script]
 薪资日 = type=cron,wake-system=true,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/bob-zebedy/Surge/master/Script/Salary.js,script-update-interval=0
 账单日 = type=cron,wake-system=true,cronexp=00 10 * * *,script-path=https://raw.githubusercontent.com/bob-zebedy/Surge/master/Script/BillingDate.js,script-update-interval=0
