@@ -1,0 +1,114 @@
+#!MANAGED-CONFIG https://zebedy.oss-cn-beijing.aliyuncs.com/proxy/surge interval=43200
+
+[General]
+# 公共配置
+loglevel = notify
+
+ipv6 = false
+ipv6-vif = off
+
+internet-test-url = http://connectivitycheck.platform.hicloud.com/generate_204
+proxy-test-url = http://www.gstatic.com/generate_204
+test-timeout = 5
+show-error-page-for-reject = false
+
+read-etc-hosts = true
+
+skip-proxy = 192.168.0.0/24, 10.0.0.0/8, 172.16.0.0/12, 127.0.0.1, localhost, *.local
+always-real-ip = *.lan, *.localdomain, *.localhost, *.home.arpa, msftncsi.com, msftconnecttest.com, *.msftncsi.com, *.msftconnecttest.com, network-test.debian.org, detectportal.firefox.com, resolver1.opendns.com, *.ipv6.microsoft.com, *.srv.nintendo.net, *.stun.playstation.net, xbox.*.microsoft.com, *.xboxlive.com, turn.twilio.com, *.turn.twilio.com, stun.twilio.com, *.stun.twilio.com, stun.syncthing.net, stun.*.*, stun.*.*.*, controlplane.tailscale.com, time.*.com, time.*.gov, time.*.edu.cn, time.*.apple.com, time1.*.com, time2.*.com, time3.*.com, time4.*.com, time5.*.com, time6.*.com, time7.*.com, time8.*.com, time9.*.com, ntp.*.com, ntp1.*.com, ntp2.*.com, ntp3.*.com, ntp4.*.com, ntp5.*.com, ntp6.*.com, ntp7.*.com, time1.*.com, time2.*.com, time3.*.com, time4.*.com, time5.*.com, time6.*.com, time7.*.com, time8.*.com, ti me9.*.com, *.time.edu.cn, *.ntp.org.cn, *.pool.ntp.org, time1.cloud.tencent.com, local.adguard.org, injections.adguard.org, localhost.ptlogin2.qq.com, localhost.sec.qq.com, localhost.work.weixin.qq.com, PDC._msDCS.*.*, DC._msDCS.*.*, GC._msDCS.*.*, *.battlenet.com.cn, *.blzstatic.cn, *.battlenet.com
+exclude-simple-hostnames = true
+use-default-policy-if-wifi-not-primary = false
+
+hijack-dns = 8.8.8.8:53, 8.8.4.4:53
+
+dns-server = system
+
+# iOS 配置
+wifi-access-http-port = 2048
+wifi-access-socks5-port = 4096
+
+allow-wifi-access = false
+allow-hotspot-access = true
+
+# macOS 配置
+http-listen = 0.0.0.0:2048
+socks5-listen = 0.0.0.0:4096
+
+external-controller-access = 1030475@0.0.0.0:6170
+
+
+[Replica]
+hide-apple-request = true
+hide-crash-reporter-request = true
+hide-udp = flase
+keyword-filter-type = none
+
+
+[Proxy]
+Shadowsocks 01 = ss, shadowsocks01.zebedy.com, 10240, encrypt-method=xchacha20-ietf-poly1305, password=NrO2ltTiJfDxumG4, obfs=http, obfs-host=world.taobao.com, udp-relay=true
+Shadowsocks 02 = ss, shadowsocks02.zebedy.com, 10240, encrypt-method=xchacha20-ietf-poly1305, password=NrO2ltTiJfDxumG4, obfs=http, obfs-host=world.taobao.com, udp-relay=true
+Shadowsocks 03 = ss, shadowsocks03.zebedy.com, 10240, encrypt-method=xchacha20-ietf-poly1305, password=NrO2ltTiJfDxumG4, obfs=http, obfs-host=world.taobao.com, udp-relay=true
+
+
+
+[Proxy Group]
+AGENT = select, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+China = select, DIRECT, AGENT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Global = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Developer = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Cloudflare = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Apple = select, DIRECT, AGENT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Google = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Microsoft = select, DIRECT, AGENT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+OpenAI = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+PayPal = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Netflix = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Disney = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Spotify = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+Final = select, AGENT, DIRECT, Shadowsocks 01, Shadowsocks 02, Shadowsocks 03
+
+
+[Rule]
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Advertising.list, REJECT
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Privacy.list, REJECT
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Hijacking.list, REJECT
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Unbreak.list, DIRECT
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Apple.list, Apple
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Google.list, Google
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Microsoft.list, Microsoft
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/OpenAI.list, OpenAI
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/PayPal.list, PayPal
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Netflix.list, Netflix
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Disney.list, Disney
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Spotify.list, Spotify
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Developer.list, Developer
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Cloudflare.list, Cloudflare
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/China.list, China
+RULE-SET, https://raw.githubusercontent.com/bob-zebedy/Surge/master/Provider/Global.list, Global
+RULE-SET, LAN, DIRECT
+GEOIP, CN, China
+FINAL, Final, dns-failed
+
+
+[Host]
+mtalk.google.com = 108.177.125.188
+dl.google.com = server:119.29.29.29
+dl.l.google.com = server:119.29.29.29
+ip6-localhost = ::1
+ip6-loopback = ::1
+*.lan = server:system
+
+
+[URL Rewrite]
+
+
+[Script]
+
+
+[MITM]
+skip-server-cert-verify = true
+tcp-connection = false
+h2 = true
+
+ca-passphrase = 1030475
+ca-p12 = MIIKOQIBAzCCCf8GCSqGSIb3DQEHAaCCCfAEggnsMIIJ6DCCBJ8GCSqGSIb3DQEHBqCCBJAwggSMAgEAMIIEhQYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQYwDgQIedZG+E300hYCAggAgIIEWCTz2ykHP1GkPIkuLBY5r00UT0jH7nPMQTVlovjsaMiwba3j2uKPMlDByHgsQkJo5BUGFHm+VLhqmjFG23lfTJqgHclhJKjOdGwnjqe0CvsH+YL5nhUaBAqXzLMfIl1eVAhoJ7M0WfC2C3+Ij6orExwembkPyq6JbfxRa/Lf0GnvOyG/I/YyO20l50zPzgn4UVdGSN2GLJwbppZzMFwo0oetMHPaGWV8zJ7R5kKlDZ5UP1B6eZB/F+sASEnW49JdbHOlY8numGGB3ul1H729YS3DVruPwSQBGt8DrbxAE27OUGQ/wM3G+nzXPhZwA4faO9nr74m2ELWLPMBs+J10kz/KamMTu3hhTJ8cf+XRZdK+EgWf5mF8KMhXB/K/0dUgur7y2kB5NCkY3Pz5bWpzPGab4JuMdP0Prx2Yroa6Lfu1MsrD+A9ye2FijrAXRNvkIcddjHse+yQ80ooTPpL/WH2NufFiNNQRGHn+ixRw1u5pWrQSGYel9A9smEfRLkWrk8khPFGx7/hOewzOEIUrgHuy8f1r6Nnz67J1rvyi9zaI6GBtw4rct0DCFHNVqNE2OZMnKRQ8+d3PdG9xn3xEsTHpALJCAEHUys/943tLAks+1BVEKq49Sj+A8dJIFAwe4pLqW6vBxoZ771gH2K9BTn4ZHjE+eNnKjatFglEwazFhbhsJmTvOLxWmCMl5fNXntrGBG/CNmvu70/YGAV9kPzAEoJFVwUl26vs023yZHTj12WtmQjatB7fx6Vz/9hEobq8EQ4x59OLOjkAEAGqJ706JQ9ivakukJ9O/p3Z4rd0upSxHysW2sJRbzcfn2ohDY4/BX7grPll394CMTa93PXPoxInTbs2wUCxg5y0Bt6MswQDhN5z9fhFqAxp2pQOV6nHvVG0c1azVG6iZ8YFAC65UbwYsTgb/RMcoC06EwlFFi7h9keMQ2mA/b1zdpUvSROXD7IbBLpLGkFVQIvyWWrv4/56EyhrepFcYJk4hY9AVNFVYWs2ef01y4ITb5Gck23YsS/O/NHk6c/bZsXjCAPZpXXPmGJV7czFY9Vwme+txi4ZxgA6EUyoNMU8XrEyTZVccV8IU6seCLt45Uv6P7pLCX8C5vsaxdVHj3YMugsppWJu+2uheui7eBv8TcVdI/6LwJ6n9OXmysENaGNJtYtl0Mm4FitfbLb6LzdgFUBQiMBsyLn013o+EZF6MefaMePhd+SPiQT0fZHbhrnconn2apVRMLP/b/BwGiUBiJ1Hu8ZnaTM+TYLIiTaIk52OU7czoqCwzsGhXmWOZH6wGytmn/3DTP1evwIV1oNMXJvMctOXulI1DIgWXbP3lEhBpkGcKIjZ5QOowCJeGOv6tczW7Mnbi6NXiYNVEh9Xu5/5hfs0mYSVMneDK8foeeX2eNRRh8THSJ/YuJxvMf8o8MCI7IzON5KTm27sHipCAznhFOA7iFa6qJHLP22r8x9WQZ6ZDRbOZlIY2MIIFQQYJKoZIhvcNAQcBoIIFMgSCBS4wggUqMIIFJgYLKoZIhvcNAQwKAQKgggTuMIIE6jAcBgoqhkiG9w0BDAEDMA4ECCrbU0eaQW8IAgIIAASCBMgT2noROaFarFjSOeAx9issMfw/3PAxWJhbva0xt7uPHfCBl9lmjdJDEFXHV04DF2c8y3HpgHVgipGu02gdUeWns/kghMOYyDO9CoCW8E69XhOnNQHMdwGxKoiAz6vTEKeU21lUKgq5KXpEsWcbTqKYnxRMKEcSt7ki0ZXWcAk95YW99TYjlk+TxR2k+ZzLhxGLiZ9sZL68xlKTYeQGZY+R5YZY6z5tRaEEorhLDaIg+jZBfGkuIChfOczcyWQoPemzOeQrssmWh0IuQEYKR55WJvX6/gskPBtEixrAd8kZx3n/bNxQA9dBssR3ONIkiuv3V6IDFVhaCuEL8zEX02usnK7/90af6xH0bbWCi5QvIu3yINf24EP0KGqNBKv9+hUQL4laVFVSlCZZd8oPVbFO4lRlCZ+A1QN/u07gJhMNY3MDT7j6XljQil0XaSR9L0hfxz6TnR3o5Mn/lFQ0oxFD2v9rp1XP01PikIKtHeF2KypbbhUERxLeBXc26QTKnayNwQe8p/oz/Y9ZoOpWVL/5uMMT1/p4RCpQVhVMbjJThR+JHa5lUXHPjEz0wmpd+BFJVgM4zxwLyuATj9LSJOIl3HG36Xoc+ZKFQTUgiA46fCCi4MNW+t0161cQvODA+nu0+6I/dmNI1Xfp3O0+xPeUvv+not4rYkWuTS70HbZlOgT6oAz6e6pwUmCM+/IQMDVgY4FhxhH9luaCMqFdpaMBlc9H3CFVmIi1xaZ4YkyBJNrtlvMubGtkZelz8SjHPH79+chN7QjTM+OSC0MP7LN3Qf7lK35LjnZTXN3dirU8YxLF44PIXfGS0x1vQVRVLwIvKXVxCrKFd2y24BHfGseGBVS1jF9Ou6DmJ/odDV3W8FAZFGzDgpj7a9IgbMxH13+ajpEODuHlioTOLH2zGjK+LokXfBSGvaXsb2u1vO3v5NFQRbEO9ATL7pfVW2+5kd5+BcGuoqX3lFXJC3xBW8DlibiTfOt4oOOS+XEx+XTVJkGcLLaTNgZOXWhm4YH2Ebq9P+ghiUnQ5xlghI4t+MUbJsUlwjRyJojeCXDyAMk1DGiP2RzYI0pAL/1JxA59fm0yn0O97stQnp3hy85dbEIbqBDiKONOfU5KYtrbRCOLLKxSXt/GFh5P5N1o8FAtdxzqvOBJeZN+5oqPDMbj3rnbQ+z15rFjgb/lFpnZ+BPkwvegUt/vtXjkI16CJHleg5ISRiEeuvvBFAvW7mT9FcAHaUWooJ/i1sprMSMYy16QkppgCqZXOYMxw25i32efxz41ka7YBsOIabZUZ+sWHnasWgIYarjz0XlWhYOmuwmNI7Hb+GrSIYyEqcBI8rU1/M0Pel9uuAGnMdQnLQOwVUfGmdrQOhtFUd9hHbtasg5cn57/9+qvtLmmBGBPwA8EU1QM1KAvPs9FYvJ/J7X5CpO8QtJgxHrsNH9B+JYWdkYqxTueuV4HixilC05Sl5Ct1KxUt9mI616GXq8s0AwAf3gR1vhpyh3YfhYX2EdJbWvgRzty/ghWz/+4JPpzeofWpUjnEFjnthEvlBId4SQ/8HD1ryNPJ7HZ5M+/H3R/vVNV/yGyAOucylW86lnyOZA8aOvZVxK6AA79SKwfbXPz+l96oe/6SQg+5CoxJTAjBgkqhkiG9w0BCRUxFgQUV9vENTQ4UKlsogBdxYdE1jelEU0wMTAhMAkGBSsOAwIaBQAEFHxqBEV8SHs5yjkuQSjWGIAQajXlBAjJc74xk1bhTwICCAA=
